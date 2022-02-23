@@ -17,11 +17,11 @@ int main()
     d = (b * b - 4 * a * c);
 
     if (d == 0){
-    printf("Equation has two values ; %d\n%d\n",r1,r2);
+    printf("Equation has two values ; %f\n%f\n",r1,r2);
     }
 
     else if (d > 0){
-        printf("Equation has two distinct values ; %d\n%d\n",r1,r2);
+        printf("Equation has two distinct values ; %f\n%f\n",r1,r2);
     }
     if (d < 0){
         printf("Equation has no roots");
